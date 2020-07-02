@@ -3416,6 +3416,7 @@ class Table(Canvas):
         clr = pickColor(self,self.rowselectedcolor)
         if clr != None:
             self.rowselectedcolor = clr
+            self.colselectedcolor = clr
         return
 
     def showPreferences(self):
